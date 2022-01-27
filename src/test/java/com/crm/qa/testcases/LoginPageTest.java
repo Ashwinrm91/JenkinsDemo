@@ -47,7 +47,7 @@ public class LoginPageTest extends TestBase{
 //		act.moveToElement(driver.findElement(By.xpath("(//*[contains(text(),'Sort by')])[2]"))).click().perform();		
 //		driver.findElement(By.xpath("(//*[contains(text(),'Price: Low to High')])[2]")).click();
     //3)Taking Screenshot
-		WebElement phonename = driver.findElement(By.linkText("New Apple iPhone 12 Pro (128GB) - Pacific Blue"));
+		WebElement phonename = driver.findElement(By.linkText("Apple iPhone 12 (64GB) - Black"));
 		String phone = phonename.getText();
 		System.out.println(phone);
 		phonename.click();
