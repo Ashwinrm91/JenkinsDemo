@@ -76,7 +76,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=2)
      public void Demosite1() throws InterruptedException, IOException{
 	driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Oneplus 8t",Keys.ENTER);
-		WebElement phonename = driver.findElement(By.linkText("(Renewed) OnePlus 8T 5G (Aquamarine Green, 12GB RAM, 256GB Storage)"));
+		WebElement phonename = driver.findElement(By.linkText("(Renewed) OnePlus 8 5G (Aquamarine Green, 12GB RAM, 256GB Storage)"));
 		String phone = phonename.getText();
 		System.out.println(phone);
 		phonename.click();
